@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { Cliente, Grupo } from './../cliente.model';
+import { AltaClienteComponent } from './alta-cliente/alta-cliente.component';
+
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'clientes-app';
+  title = 'Cliente aplicacion';
 }
